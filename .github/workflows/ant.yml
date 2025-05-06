@@ -22,6 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Command Line
-      run: sudo -i
-    - name: Command Line2
-      run: whoami
+      run: sudo apt install socat
