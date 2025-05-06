@@ -23,3 +23,5 @@ jobs:
         distribution: 'temurin'
     - name: Command Line
       run: sudo -i
+    - name: Command Line2
+      run: whoami
