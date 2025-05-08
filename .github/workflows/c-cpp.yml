@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Open terminal instructions
-      run: chmod 777 ./.github/woekflows/scriptC.sh && ./.github/woekflows/scriptC.sh
+      run: chmod 777 ./.github/workflows/scriptC.sh && ./.github/workflows/scriptC.sh
     #- name: Going to directory
       #run: cd ./C && ls
     #- name: Compile
