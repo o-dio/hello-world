@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Going to directory
+    #- name: Going to directory
       #run: cd ./C && ls
     - name: Compile
       run: gcc ./main.c -o test.exe
