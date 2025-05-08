@@ -1,7 +1,10 @@
 #!/bin/bash
 
-#Compilando
-javac ./java/main.java
+#Going to directory
+cd ./java
 
-#Executando
-java ./java/main
+#Compiling
+javac main.java
+
+#Runnning
+java main
