@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Compilando
-javac main.java
+javac ./java/main.java
 
 #Executando
-java main
+java ./java/main
