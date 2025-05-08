@@ -14,10 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Going to directory
-      run: cd ./C && ls
-    - name: installing gcc
-      run: sudo apt-get install gcc
+      #run: cd ./C && ls
     - name: Compile
-      run: gcc main.c -o executable
+      run: gcc ./main.c -o test.exe
     - name: Running
       run: ./executable
