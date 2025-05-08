@@ -21,11 +21,5 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Going to directory
-      run: cd ./java
-    - name: Compiling
-      run: javac main.java
-    - name: Running
-      run: java main
-    #- name: executando arquivo de script
-      #run: chmod 777 ./.github/workflows/scriptJava.sh && ./.github/workflows/scriptJava.sh
+    - name: executando arquivo de script
+      run: chmod 777 ./.github/workflows/scriptJava.sh && ./.github/workflows/scriptJava.sh
