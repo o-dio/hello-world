@@ -18,4 +18,4 @@ jobs:
     - name: Compile
       run: gcc ./main.c -o test.exe
     - name: Running
-      run: ./executable
+      run: ./test.exe
