@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: executando arquivo de script
-      run: chmod 777 ./.github/workflows/script.sh && ./.github/workflows/script.sh
+      run: chmod 777 ./.github/workflows/scriptJava.sh && ./.github/workflows/scriptJava.sh
