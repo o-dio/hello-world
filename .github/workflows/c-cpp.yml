@@ -14,10 +14,3 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Open terminal instructions
-      run: chmod 777 ./.github/workflows/scriptC.sh && ./.github/workflows/scriptC.sh
-    #- name: Going to directory
-      #run: cd ./C && ls
-    #- name: Compile
-      #run: gcc ./C/main.c -o test.exe
-    #- name: Running
-      #run: ./C/test.exe
