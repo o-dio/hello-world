@@ -16,6 +16,6 @@ jobs:
     #- name: Going to directory
       #run: cd ./C && ls
     - name: Compile
-      run: gcc ./main.c -o test.exe
+      run: gcc ./C/main.c -o test.exe
     - name: Running
-      run: ./test.exe
+      run: ./C/test.exe
